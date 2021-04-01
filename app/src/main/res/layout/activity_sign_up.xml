@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--author: Tran Thi Kim Quyen - 1720193-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/sofia_pro_semi_bold"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/sofia_pro_semi_bold"
+        android:text="Full name"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_input"
+        android:backgroundTint="#FFFFFF"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:fontFamily="@font/sofia_pro_semi_bold"
+        android:hint="Arlene Mccoy"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="10sp"
+        android:maxLines="1"
+        android:outlineProvider="background"
+        android:outlineSpotShadowColor="#FFFFFF"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/sofia_pro_semi_bold"
+        android:text="E-mail"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/sofia_pro_semi_bold"
+        android:hint="prelookstudio@gmail.com"
+        android:inputType="textEmailAddress"
+        android:lineSpacingExtra="10sp"
+        android:maxLines="1"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/sofia_pro_semi_bold"
+        android:text="Password"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/sofia_pro_semi_bold"
+        android:hint="........"
+        android:inputType="textPassword"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="237dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/ed3"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#FE724C"
+        android:fontFamily="@font/sofia_pro_semi_bold"
+        android:outlineSpotShadowColor="#3C3F41"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="10dp"
+        android:text="SIGN UP"
+        android:textSize="20dp"
+        app:cornerRadius="50dp" />
+
+    <LinearLayout
+        android:layout_width="276dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-35dp"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/bt1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bt1"
+        app:layout_constraintTop_toBottomOf="@+id/bt1"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sofia_pro_semi_bold"
+            android:text="Already have an account? "
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="56dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/sofia_pro_semi_bold"
+            android:text="Login"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18dp" />
+        app:layout_constraintLeft_toLeftOf="
+        tools:layout_editor_absoluteX="-38dp" />"
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">task1</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_Verification_Code">Verification Code</string>
+    <string name="title_email">E-mail</string>
+    <string name="title_password">Password</string>
+    <string name="action_forgot">Forgot password?</string>
+    <string name="prompt_email">Your email or phone</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_log_in">Log in</string>
+    <string name="action_sign_in_fb">Facebook</string>
+    <string name="action_sign_in_gg">Google</string>
+    <string name="prompt_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="prompt_sign_up">Don’t have an account?</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="action_sign_in">Sign in or register</string>
+</resources>
